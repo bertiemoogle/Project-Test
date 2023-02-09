@@ -4,7 +4,6 @@ body {
 }
 
 .navbar-brand {
-/*    margin-left: 50px;*/
     color: white;
 }
 
@@ -116,16 +115,6 @@ button {
     z-index: 1;
 }
 
-li {
-    position: relative;
-    background-color: white !important;
-    z-index: 1;
-}
-
-.accordion-button {
-    background-color: #86E5FF !important;
-}
-
 .dropdown {
     padding-left: 50px !important;
 }
@@ -148,11 +137,6 @@ li {
 
 .submit-button {
     margin-left: 50px;
-}
-
-.accordion-item-three {
-    margin-bottom: 100px;
-    background-color: #86E5FF !important;
 }
 
 input[type=text], select, textarea {
