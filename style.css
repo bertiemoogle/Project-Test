@@ -27,6 +27,24 @@ body {
     animation-fill-mode: forwards;
 }
 
+.one {
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.two {
+    animation: fadeInAnimation ease 11s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.three {
+    animation: fadeInAnimation ease 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 .blink-image {
     -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
     -webkit-animation: blink normal 2s infinite ease-in-out !important; /* Webkit */
