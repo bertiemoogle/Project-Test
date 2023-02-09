@@ -87,11 +87,15 @@ button {
 }
 
 .two {
+    position: relative;
     padding-bottom: 50px;
+    z-index: -1;
 }
 
 .three {
+    position: relative;
     padding-bottom: 100px;
+    z-index: -1;
 }
 
 .location {
@@ -106,8 +110,16 @@ button {
     padding-left: 50px;
 }
 
-.accordion-item {
-    background-color: #86E5FF !important;
+.dropdown-menu {
+    background-color: white !important;
+    position: relative;
+    z-index: 1;
+}
+
+li {
+    position: relative;
+    background-color: white !important;
+    z-index: 1;
 }
 
 .accordion-button {
